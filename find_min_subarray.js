@@ -1,3 +1,13 @@
+/*
+
+Finish writing the function indexOfMinimum, which takes an array
+and a number startIndex, and returns the index of the smallest value
+that occurs with index startIndex or greater.
+If this smallest value occurs more than once in this range, then
+return the index of the leftmost occurrence within this range.
+
+*/
+
 var indexOfMinimum = function(array, startIndex) {
     // Set initial values for minValue and minIndex,
     // based on the leftmost entry in the subarray:  
